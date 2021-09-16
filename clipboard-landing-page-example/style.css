@@ -1,0 +1,615 @@
+*{
+    box-sizing:border-box;
+}
+
+@font-face {
+    font-family: 'BaiJamjuree';
+    src: local(''), url("font/BaiJamjuree-Regular.ttf") format('truetype');
+}
+
+
+@font-face {
+    font-family: 'BaiJamjuree Bold';
+    src: local(''), url("font/BaiJamjuree-Bold.ttf") format('truetype');
+}
+
+
+@font-face {
+    font-family: 'BaiJamjuree light';
+    src: local(''), url("font/BaiJamjuree-Medium.ttf") format('truetype');
+}
+
+
+html{
+    font-size:20px;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    padding:0;
+    margin:0;
+    font-family: 'BaiJamjuree Bold';
+    font-size:18px;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(201, 11%, 66%);   
+}
+
+header{
+
+    background-image: url(images/bg-header-desktop.png);
+    background-position:contain;
+    background-repeat:no-repeat;
+    margin-bottom:6rem;
+}
+
+.header_holder{
+    /* position: absolute; */
+    text-align:center;
+   padding-top: 10%;
+}
+
+.header_holder h3{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color:hsl(210, 10%, 33%);
+    margin-bottom:1rem;
+    font-style: bold;
+}
+
+.header_holder p{
+    margin:1rem 5rem;
+    font-weight: 400;
+    font-size: 1rem;
+    color: hsl(201, 11%, 66%);
+    font-style: bold;
+    margin:3rem 15rem;
+    margin-top: 0rem;
+    font-family: 'BaiJamjuree light';
+}
+
+.header_holder img{
+    width:9%;
+
+}
+
+.header_holder .ios_download{
+    background-color: #26baa4;
+    outline:none;
+    border:none;
+    padding:12px 30px;
+    color:white;
+    border-radius:40px;
+    font-family: 'BaiJamjuree Bold';
+    font-weight: 700;
+    margin:10px 10px;
+    font-size:.8rem;
+    transform: scaleX(1);
+    transition: all .1s linear;
+    border:  2px 2px 2px 2px  #20a591;
+    box-shadow: 1px 1px  1px 2px #21ad98;
+
+
+}
+
+.header_holder .android_download{
+    background-color: #6173ff;
+    outline:none;
+    border:none;
+    padding:12px 30px;
+    color:white;
+    border-radius:40px;
+    font-family: 'BaiJamjuree Bold';
+    font-weight: 700;
+    margin:10px 10px;
+    font-size:.8rem;
+    transform: scaleX(1);
+    transition: all .1s linear;
+    border:  2px 2px 2px 2px  #6173ff91;
+    box-shadow: 1px 1px  1px 2px #6173ff98;
+}
+
+.header_holder .android_download:hover{
+    cursor:pointer;
+    transform: scale(1.03);
+}
+
+.header_holder .ios_download:hover{
+    cursor:pointer;
+    transform: scale(1.03);
+}
+
+/* end of header */
+
+
+/* begining of section1 */
+.section1{
+
+    text-align: center;
+}
+
+
+.section1 h3{
+    font-size: 1.3rem;
+    font-family: 'BaiJamjuree Bold';
+    color:hsl(210, 10%, 33%);
+    margin-bottom:1rem;
+    font-weight: 600;
+
+}
+
+
+.section1 p{
+    margin:1rem 5rem;
+    font-weight: 400;
+    font-size: .9rem;
+    color: hsl(201, 11%, 66%);
+    margin:3rem 17rem;
+    margin-top: 0rem;
+    font-family: 'BaiJamjuree light';
+}
+
+
+/* end of section1 */
+
+.section2{
+    display:flex;
+
+}
+
+.section2 img{
+    width:50%;
+    margin: 20px;
+    transform: translateX(-50px);
+}
+
+.section2 .sec_2{
+    width:50%;
+    padding: 5% 2%;
+    padding-right: 20%;
+}
+
+
+.section2 .sec_2 h3{
+    font-size: .9rem;
+    font-family: 'BaiJamjuree Bold';
+    color:hsl(210, 10%, 33%);
+    margin-bottom:.7rem;
+    font-weight: 600;
+}
+
+
+.section2 .sec_2 p{
+
+    /* font-weight: 400; */
+    font-size: .75rem;
+    color: hsl(202, 11%, 66%);
+    margin-Bottom: 2rem;
+    font-family: 'BaiJamjuree light';
+}
+
+/* end of section2 */
+
+/* begining of section3 */
+.section3{
+    text-align:center;
+    margin-top:5rem;
+}
+
+.section3 h3{
+    font-size: 1.1rem;
+    font-family: 'BaiJamjuree Bold';
+    color:hsl(210, 10%, 33%);
+    margin-bottom:.7rem;
+    font-weight: 600;
+}
+
+
+
+.section3 p{
+    margin:0 20rem;
+    /* font-weight: 400; */
+    font-size: .75rem;
+    color: hsl(202, 11%, 66%);
+    margin-Bottom: 2rem;
+
+    font-family: 'BaiJamjuree light';
+}
+
+.section3 img{
+    margin:0 2.5rem;
+    width:50%
+}
+
+
+
+/* end of section3 */
+
+
+/* begining of section4 */
+
+.section4 .holder1{
+    text-align: center;
+    display: flex;
+    padding:20px 5rem;
+    align-items: center;
+
+}
+
+.section4 .holder1 .box{
+    margin:0 1rem;
+    width:33.3%;
+}
+
+
+.section4 .holder1 .box h3{
+    font-size: 1.1rem;
+    font-family: 'BaiJamjuree Bold';
+    color:hsl(210, 10%, 33%);
+    margin-bottom:.7rem;
+    font-weight: 600;
+}
+
+.section4 .holder1 .box p{
+    font-size: .75rem;
+    color: hsl(202, 11%, 66%);
+    font-family: 'BaiJamjuree light';
+
+}
+
+
+.section4 .holder2{
+    text-align: center;
+    display: flex;
+    padding:20px 5rem;
+    justify-content: space-between;
+
+}
+
+.section4 .holder2{
+    text-align: center;
+    display: flex;
+    padding:0 7rem;
+    margin-top:2rem;
+
+}
+
+
+.section4 .holder2 img{
+    width:18%;
+    padding:1.2rem;
+
+
+}
+/* end of section4 */
+
+
+/* begining of section5 */
+.section5 .header_holder{
+    /* position: absolute; */
+    text-align:center;
+   padding-top: 10%;
+}
+
+.section5 .header_holder h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:hsl(210, 10%, 33%);
+    margin-bottom:1rem;
+    font-style: bold;
+}
+
+.section5 .header_holder p{
+    margin:1rem 5rem;
+    font-weight: 400;
+    font-size: .9rem;
+    color: hsl(201, 11%, 66%);
+    font-style: bold;
+    margin:3rem 15rem;
+    margin-top: 0rem;
+    font-family: 'BaiJamjuree light';
+}
+/* end of section5 */
+
+
+/* footer */
+footer{
+    display:flex;
+    padding:2rem;
+    padding-top:4rem;
+    margin-top:4rem;
+    background-color: #80808013;
+   
+}
+
+footer .box1{
+width:20%;
+text-align:center;
+}
+
+footer .box1 img{
+    width:30%;
+}
+
+
+footer .box2{
+    width:60%
+}
+
+
+footer .box2 .box2_1{
+    display:flex;
+    text-align: center;
+}
+
+
+footer .box2 .box2_1 p{
+    margin: .5rem 2rem ;
+    font-size: .8rem;
+    color: hsl(202, 11%, 66%);
+    font-family: 'BaiJamjuree';
+    font-weight:600;
+}
+
+
+footer .box2 .box2_2{
+    display:flex;
+    text-align: center;
+}
+
+footer .box2 .box2_2 p{
+    margin: .5rem 2rem ;
+    margin-right:0rem;
+    font-size: .8rem;
+    color: hsl(202, 11%, 66%);
+    font-family: 'BaiJamjuree';
+    font-weight:600;
+}
+
+
+footer .contact{
+    /* align-content:center;     */
+    text-align: center;
+    width:20%;
+    
+}
+
+footer .contact img{
+    margin:.7rem;
+}
+
+
+
+
+
+@media(max-width:375px){
+
+    html{
+        font-size: 80%;
+    }
+    .header_holder .btn_holder{
+        display:block;
+    }
+
+    .header_holder h3{
+    font-size: 2.5rem;
+    margin:1rem 4%;
+    margin-bottom:1rem;
+
+    }
+
+
+    .header_holder p{
+        margin:3rem 1rem;
+        font-size:1.2rem;
+        margin-top: 0;
+    }
+
+    .header_holder img{
+        width:30%;
+        margin-top:5rem;
+        margin-bottom:4rem;
+
+    }
+
+    .header_holder .android_download{
+        width:80%;
+        font-size:1rem;
+    }
+
+    .header_holder .ios_download{
+        width:80%;
+        font-size:1rem;
+    }
+
+    /* for section1 media query */
+
+    .section1 h3{
+        font-size: 2.2rem;
+        margin-bottom:1rem;
+        margin:1rem 1rem;
+
+
+    }
+
+
+    .section1 p{
+        margin:3rem 2rem;
+        font-weight: 400;
+        font-size:1.2rem;
+
+        margin-top: 0rem;
+
+    }
+
+/* end of section1 */
+
+/* begining of section2 */
+    .section2{
+        display:block;
+
+    }
+
+    .section2 img{
+        width:80%;
+        transform: translateX(0px);
+        margin:10%;
+    }
+
+    .section2 .sec_2{
+        width:100%;
+        padding: 5% 0;
+        text-align:center;
+    }
+
+    .section2 .sec_2 h3{
+        font-size: 1.8rem;
+        margin-bottom:.7rem;
+    }
+
+
+    .section2 .sec_2 p{
+        font-size:1.2rem;
+        margin:0 2rem;
+        margin-Bottom: 2rem;
+    }
+/* end of section2 */
+
+/* begining of section3 */
+
+.section3 h3{
+    font-size: 1.6rem;
+    margin-bottom:.7rem;
+
+}
+
+    .section3 p{
+        margin:0 5rem;
+        font-size:1.2rem;
+        margin-Bottom: 2rem;
+    }
+
+
+    .section3 img{
+        margin:0 2.5rem;
+        width:90%;
+    }
+
+    /* end of section3 */
+
+    /* begining of section4 */
+    .section4 .holder1{
+        text-align: center;
+        flex-direction:column-reverse;
+        padding:20px 2rem;
+        align-items: center;
+
+    }
+
+    .section4 .holder1 .box{
+        margin:2rem 1rem;
+        width:auto;
+    }
+
+    
+.section4 .holder1 .box h3{
+    font-size: 1.6rem;
+    margin-bottom:.7rem;
+}
+
+.section4 .holder1 .box p{
+    font-size: 1.2rem;
+
+}
+
+
+.section4 .holder2 {
+   display:block;
+    text-align: center;
+    margin-top:2rem;
+
+
+}
+
+
+.section4 .holder2 img{
+    width:80%;
+    padding:1rem;
+    margin-top:2rem;
+
+
+}
+
+    /* end of section4 */
+
+    /* begining of section5 */
+
+    .section5 .header_holder h3{
+        font-size: 1.6;
+        margin:10px 7rem;
+        margin-bottom:1rem;
+    }
+    .section5 .header_holder p{
+        font-size: 1.2rem;
+        margin:3rem 3rem;
+        margin-top: 0rem;
+    }
+    /* end of section5 */
+
+    /*  footer */
+    footer{
+        display:block;
+        padding:2rem;
+        padding-top:4rem;
+        margin-top:4rem;
+        text-align:center;
+       
+    }
+
+    
+    footer .box2 .box2_1{
+        display:block;
+        text-align: center;
+    }
+       
+    footer .box2 .box2_2{
+        display:block;
+        text-align: center;
+    }
+
+    footer .box2 .box2_2 p{
+        margin: 1.3rem 0 ;
+        font-size: 1.2rem;
+    }
+
+    footer .box2 .box2_1 p{
+        margin: 1.3rem 0 ;
+        font-size: 1.2rem;
+    }
+    
+    footer .box1{
+        width:100%;
+    }
+
+    footer .box2{
+        width:100%;
+    }
+    footer .contact{
+        display:flex;
+        width:100%;
+        justify-content: center;
+        margin-top:2rem;
+
+    }
+
+    
+footer .box1 img{
+    margin:1rem;
+}
+
+
+}
+
